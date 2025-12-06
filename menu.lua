@@ -204,6 +204,7 @@ do -- tracking menu
     {"spirithealer", pfQuest_Loc["Spirit Healer"], pfDatabase.TrackMeta, true},
     {"stablemaster", pfQuest_Loc["Stable Master"], pfDatabase.TrackMeta, true},
     {"vendor", pfQuest_Loc["Vendor"], pfDatabase.TrackMeta, true},
+    {"mount", pfQuest_Loc["Mount"], pfDatabase.TrackMeta, true},
     {"-"},
     {"journal", pfQuest_Loc["Quest Journal"], function(list, state) ToggleFrame(pfJournal) end},
     {"welcome", pfQuest_Loc["Welcome Screen"], function(list, state) ToggleFrame(pfQuestInit) end},
